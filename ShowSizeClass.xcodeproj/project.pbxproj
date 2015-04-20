@@ -13,6 +13,7 @@
 		647CEC6D1AE15756002AA362 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 647CEC6C1AE15756002AA362 /* Images.xcassets */; };
 		647CEC701AE15756002AA362 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 647CEC6E1AE15756002AA362 /* LaunchScreen.xib */; };
 		647CEC7C1AE15756002AA362 /* ShowSizeClassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647CEC7B1AE15756002AA362 /* ShowSizeClassTests.swift */; };
+		64B8757B1AE52874002C7F90 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 64B8757A1AE52874002C7F90 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		647CEC751AE15756002AA362 /* ShowSizeClassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowSizeClassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		647CEC7A1AE15756002AA362 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		647CEC7B1AE15756002AA362 /* ShowSizeClassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSizeClassTests.swift; sourceTree = "<group>"; };
+		64B8757A1AE52874002C7F90 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		647CEC571AE15755002AA362 = {
 			isa = PBXGroup;
 			children = (
+				64B8757A1AE52874002C7F90 /* .gitignore */,
 				647CEC621AE15755002AA362 /* ShowSizeClass */,
 				647CEC781AE15756002AA362 /* ShowSizeClassTests */,
 				647CEC611AE15755002AA362 /* Products */,
@@ -77,11 +80,8 @@
 		647CEC621AE15755002AA362 /* ShowSizeClass */ = {
 			isa = PBXGroup;
 			children = (
-				647CEC651AE15756002AA362 /* AppDelegate.swift */,
 				647CEC671AE15756002AA362 /* ViewController.swift */,
 				647CEC691AE15756002AA362 /* Main.storyboard */,
-				647CEC6C1AE15756002AA362 /* Images.xcassets */,
-				647CEC6E1AE15756002AA362 /* LaunchScreen.xib */,
 				647CEC631AE15756002AA362 /* Supporting Files */,
 			);
 			path = ShowSizeClass;
@@ -90,6 +90,9 @@
 		647CEC631AE15756002AA362 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				647CEC6E1AE15756002AA362 /* LaunchScreen.xib */,
+				647CEC6C1AE15756002AA362 /* Images.xcassets */,
+				647CEC651AE15756002AA362 /* AppDelegate.swift */,
 				647CEC641AE15756002AA362 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B8757B1AE52874002C7F90 /* .gitignore in Resources */,
 				647CEC6B1AE15756002AA362 /* Main.storyboard in Resources */,
 				647CEC701AE15756002AA362 /* LaunchScreen.xib in Resources */,
 				647CEC6D1AE15756002AA362 /* Images.xcassets in Resources */,
@@ -342,7 +346,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ShowSizeClass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -352,7 +358,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ShowSizeClass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +419,7 @@
 				647CEC811AE15756002AA362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		647CEC821AE15756002AA362 /* Build configuration list for PBXNativeTarget "ShowSizeClassTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				647CEC841AE15756002AA362 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
